@@ -10,7 +10,7 @@ This is my attempt at the QA assignment to automate the checking for the correct
 - Make a directory wdio-flashCard
 - cd wdio-flashCard
 - Clone the repo
-- git clone https://github.com/
+- git clone https://github.com/kaurprabjyot/wdio-assessment.git
 - Once done, move into the repo folder
 - Run the following command to install the requirements
     - npm install
@@ -47,4 +47,4 @@ Tried to build the asessment in cypress but found the flash cards where showing 
 Scope is to test the flash card (https://exercise-player.snappet.org/exercise/2826229) and the behaviour of the "answer-checker" controller 
 
 **Further, proposed improvements
-**
+
