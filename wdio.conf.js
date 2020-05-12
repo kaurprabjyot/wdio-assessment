@@ -61,8 +61,11 @@ exports.config = {
     // Test runner services
     services: ['chromedriver'],
     framework: 'mocha',
-    reporters: ['spec'],
- 
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -80,13 +83,6 @@ exports.config = {
         const chaiWebdriver = require('chai-webdriverio').default;
         chai.use(chaiWebdriver(browser));
         global.expect = chai.expect;
-        if (process.env.WIDTH) {
-            VIEWPORT_SIZE.width = parseInt(process.env.WIDTH, 10);
-            console.log('Using viewport size: ' + JSON.stringify(VIEWPORT_SIZE));
-            browser.setViewportSize(VIEWPORT_SIZE);
-            } else {
-            console.log('Using viewport size: ' + JSON.stringify(VIEWPORT_SIZE));
-            browser.setViewportSize(VIEWPORT_SIZE);
-        }
+        browser.setWindowSize(VIEWPORT_SIZE.width, VIEWPORT_SIZE.height);
     }
 }
