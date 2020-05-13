@@ -9,6 +9,7 @@ This is my attempt at the QA assignment to automate the checking for the correct
   
 **Instructions for OsX**
 - Clone the repo  
+
     `git clone https://github.com/kaurprabjyot/wdio-assessment.git`
 - Once done, move into the repo folder
 - Run the following command to install the requirements
@@ -37,7 +38,7 @@ The tests execute by default on Chrome.
 - `test/data` - Fixtures for test data
 - `test/pageObject` - PageOjects are defined here
 - `test/specs` - The spec files reside here.
-- `wdio.conf.js` - storing the WebdriverIO settings.
+- `wdio.conf.js` - storing the WebdriverIO configuration.
 - `.babelrc` - For writting the  tests using next-generation JavaScript features,i used Babel to compile the test files.
 
 **Specs**
@@ -53,7 +54,7 @@ The tests execute by default on Chrome.
      
 **Major issues faced**
 
-Tried to build the asessment in cypress but found the flash cards where showing strange behaviour like sometime flash card appear and sometime a blank card was getting displayed.
+I tried to build the assessment in cypress but found that the flash cards where showing strange behaviour. Sometimes the flash card would appear and sometimes a blank card was being displayed. Hence I decided to use webDriver IO
 
 **How much to test**
 
