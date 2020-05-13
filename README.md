@@ -59,6 +59,3 @@ I tried to build the assessment in cypress but found that the flash cards where 
 **How much to test**
 
 Scope is to test the flash card (https://exercise-player.snappet.org/exercise/2826229) and the behaviour of the "answer-checker" controller 
-
-**Further, proposed improvements**
-
