@@ -9,23 +9,25 @@ This is my attempt at the QA assignment to automate the checking for the correct
   
 **Instructions for OsX**
 
-- Clone the repo  `git clone https://github.com/kaurprabjyot/wdio-assessment.git`
-- Make a directory wdio-flashCard
-- cd wdio-flashCard
-- Clone the repo
-- git clone https://github.com/kaurprabjyot/wdio-assessment.git
+- Clone the repo  
+    `git clone https://github.com/kaurprabjyot/wdio-assessment.git`
 - Once done, move into the repo folder
 - Run the following command to install the requirements
+
     `npm install`
 - Run the following command to run all the tests
+
    `npm run test:all`
-- Run this command to generate the report.     
+- Run this command to generate the report.  
+
   `npm run allure-report-generate`
 
 **Options**
 
 The tests execute by default on Chrome.
+
 **Package information** 
+
   - WEBDRIVER I/O Next-gen browser and mobile automation test framework for Node.js
   - Mocha -javaScript test framework is used for creating tests
   - Chai - used for assertions
