@@ -12,7 +12,14 @@ This is my attempt at the QA assignment to automate the checking for the correct
 - Java 8 (for allure reporter)
   
 **Instructions for OsX**
+<<<<<<< HEAD
 - Clone the repo  `git clone https://github.com/kaurprabjyot/wdio-assessment.git`
+=======
+- Make a directory wdio-flashCard
+- cd wdio-flashCard
+- Clone the repo
+- git clone https://github.com/kaurprabjyot/wdio-assessment.git
+>>>>>>> 08645f0944cd1b1004a7fa20adb02c0bef97408d
 - Once done, move into the repo folder
 - Run the following command to install the requirements
     `npm install`
@@ -54,4 +61,9 @@ Tried to build the asessment in cypress but found the flash cards where showing 
 
 Scope is to test the flash card (https://exercise-player.snappet.org/exercise/2826229) and the behaviour of the "answer-checker" controller 
 
+<<<<<<< HEAD
 **Further, proposed improvements**
+=======
+**Further, proposed improvements
+
+>>>>>>> 08645f0944cd1b1004a7fa20adb02c0bef97408d
