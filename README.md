@@ -8,9 +8,8 @@ This is my attempt at the QA assignment to automate the checking for the correct
 - Java 8 (for allure reporter)
   
 **Instructions for OsX**
-<<<<<<< HEAD
+
 - Clone the repo  `git clone https://github.com/kaurprabjyot/wdio-assessment.git`
-=======
 - Make a directory wdio-flashCard
 - cd wdio-flashCard
 - Clone the repo
