@@ -9,7 +9,7 @@ describe('testing the flash card exercise', () => {
   });
   it('checking without selecting the button the next flash card appears and answer is validated', () => {
     browser.waitUntil(
-      () => $(flashCard.answerInput).isDisplayed()
+      () => $(flashCard.answerInput).isDisplayed(), 20000
     );
     flashCard.enterText.setValue(testData.enterAnswer);
     flashCard.radioButton.click();
